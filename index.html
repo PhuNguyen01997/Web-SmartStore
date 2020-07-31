@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--Logo trên tab-->
+        <link rel="SHORTCUT ICON" href="img/Logo.png">
+        <!--Bootstrap 4 CDN-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        <!--Font-family CDN-->
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+        <!--Font Answer 5 icon CDN-->
+        <script src="https://use.fontawesome.com/2e8d05f34f.js"></script>
+
+        <!--Style from css-->
+        <link rel="stylesheet" href="style.css">
+        <!-- Script -->
+        <script src="effect.js"></script>
+        <script src="productScript.js"></script>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <title>Smart Store</title>
+        
+    </head>
+    <body class="bg-dark">
+        <nav class="navbar navbar-expand bg-dark sticky-top">
+            <ul class="navbar-nav">
+                <li class="nav-item brand">
+                    <a href="#"> <img class="nav-link title" src="img/Logo.png"> </a>
+                </li>
+                <li class="nav-item brand mr-auto">
+                    <a class="nav-link title" id="title" href="#">Smart Store</a>
+                </li>
+                <ul class="nav-item contain-list">
+                    <li class="nav-item" id="liHome">
+                        <a class="nav-link nav-after" href="#asd">Home</a>
+                    </li>
+                    <li class="nav-item" id="liProducts">
+                        <a class="nav-link  nav-after" href="#asd">Products</a>
+                    </li>
+                    <li class="nav-item" id="liLocations">
+                        <a class="nav-link  nav-after" href="#asd">Locations</a>
+                    </li>
+                    <li class="nav-item" id="liAboutUs">
+                        <a class="nav-link  nav-after" href="#asd">About Us</a>
+                    </li>
+                    <li class="nav-item" id="liFeedbacks">
+                        <a class="nav-link  nav-after" href="#asd">Feedbacks</a>
+                    </li>
+                    <li class="nav-item" id="liContact">
+                        <a class="nav-link  nav-after" href="#asd">Contact Us</a>
+                    </li>
+                </ul>
+                <li class="nav-item btn-dropdown" id="liContact">
+                    <a class="nav-link" href="#asd"><i class="fa fa-bars" aria-hidden="true"></i></a>
+                </li>
+            </ul>
+        </nav>
+
+
+        <!-- Carousel ---------------------------------------------------------------------->
+        <div id="myCarousel" class="carousel slide" data-interval="3000" data-ride="carousel">
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active" style="border-radius: 20%; width: 20px; height: 5px;"></li>
+                <li data-target="#myCarousel" data-slide-to="1" style="border-radius: 20%; width: 20px; height: 5px;"></li>
+                <li data-target="#myCarousel" data-slide-to="2" style="border-radius: 20%; width: 20px; height: 5px;"></li>
+                <li data-target="#myCarousel" data-slide-to="3" style="border-radius: 20%; width: 20px; height: 5px;"></li>
+                <li data-target="#myCarousel" data-slide-to="4" style="border-radius: 20%; width: 20px; height: 5px;"></li>
+            </ul>
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="img/carousel 1.jpg" alt="Combo 1">
+                    <div class="carousel-caption">
+                        <h1>SMART</h1>
+                    </div>      
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/carousel 2.jpg" alt="Combo 2">
+                    <div class="carousel-caption">
+                        <h1>ELEGANT</h1>
+                    </div>    
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/carousel 3.jpg" alt="Combo 3">
+                    <div class="carousel-caption">
+                        <h1>MODERN</h1>
+                    </div>    
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/carousel 4.jpg" alt="Combo 4">
+                    <div class="carousel-caption">
+                        <h1>SPACE-SAVING</h1>
+                    </div>    
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/carousel 5.jpg" alt="Combo 5">
+                    <div class="carousel-caption">
+                        <h1>CONVENIENT</h1>
+                    </div>    
+                </div>
+            </div>
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+
+        <!-- Introduction ------------------------------------------------------------------------->
+        <section id="introduction" class="container bg-dark text-white">
+            <div class="d-flex justify-content-center">
+                <img src="./img/logo.png">
+                <h2>Smart Store</h2>
+            </div>
+            <p>Incorporating storage into a home is very much necessary. Staying organized is not easy, and allowing a buyer to understand the value of efficient storage solutions can make the difference between a haphazard home and an orderly masterpiece.</p>
+            <p><u>Smartstore</u> is a company selling wardrobe and other home storage products specially space savers. We sell variety of products suiting every requirement and various sizes and qualities.</p>
+        </section>
+
+        <!-- Product ----------------------------------------------------------------------------->
+        <section id="Products" class="container-fluid" style="background-color: black">
+            <h2> Products </h2>
+            <div class="product-container">
+                <div class="left-col">
+                    <div> 
+                        <ul class="menu">
+                            <li>
+                                <h5>All</h5>
+                            </li>
+                            <li class="toggleShow" isDropDown="false">
+                                <h5>Brands <i class="fa fa-caret-right" aria-hidden="true"></i></h5>
+                            </li>
+                            <li class="child" id="brands">
+                                <ul>
+                                    <li data-sortby="brand" data-value="Brestar">Brestar</li>
+                                    <li data-sortby="brand" data-value="MASHstudios">MASHstudios</li>
+                                    <li data-sortby="brand" data-value="Vento">Vento</li>
+                                </ul>
+                            </li>
+                            <li class="toggleShow" isDropDown="false">
+                                <h5>Types <i class="fa fa-caret-right" aria-hidden="true"></i></h5>
+                            </li>
+                            <li class="child" id="types">
+                                <ul>
+                                    <li data-sortby="type" data-value="Bed">Bed</li>
+                                    <li data-sortby="type" data-value="Table/chairs">Table / Chairs</li> 
+                                </ul>
+                            </li>
+                        </ul>
+                        <div class="details">
+                            <h4>Details</h4>
+                            <p><b>Weight: </b></p>
+                            <p><b>Long: </b></p>
+                            <p><b>Wide: </b></p>
+                            <p><b>Height: </b></p>
+                            <button class="btn btn-dark"></button>
+                        </div>
+                        <div class="compare ">
+                        </div>
+                    </div>
+                </div>
+                <div id="list-products" class="right-col">
+                    <!-- Code Pattern-->
+                    <!-- <div class="grid-item">
+                        <button class="compare btn btn-info">Compare</button>
+                        <img src="/img-products/Brand_Bestar_product1.jpg" alt="img not found">
+                        <p>${obj.name}<p>
+                        <div>
+                            <h5>Price: $${obj.price}</h5>
+                            <button class="btn btn-warning">Buy</button>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Location ----------------------------------------------------------------------------->
+        <section id="Locations" class="container-fluid">
+            <h1>Locations</h1>
+            <div class="row">
+                <div class="col-sm loHover">
+                    <h3 class="text-center">Ho Chi Minh City</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.3879131023355!2d106.67224751526027!3d10.781572662045717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ed7ba0ff8e3%3A0xc8a6484648646d86!2zVHLhuqFpIEjDsm0gQ8O0bmcgVGjhu40gUGjDumM!5e0!3m2!1svi!2s!4v1594560331136!5m2!1svi!2s" width="400" height="400" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    <br><p><i>461 bis Cach Mang Thang 8 street, district 3, Ho Chi Minh City, Vietnam</i></p>
+                </div>
+                <div class="col-sm loHover">
+                    <h3 class="text-center">Ha Noi</h3>
+                    <iframe class="hoverShine" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.935829556534!2d106.66733151526037!3d10.816222861414383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529193a508a9d%3A0xb408cd197fbf9a49!2zUXXDoW4gVGjhu4t0IENow7MgR2lhIFRydXnhu4FuIDYxIEjDoG5nIEzGsOG7o2MgSMOgIE7hu5lp!5e0!3m2!1svi!2s!4v1594560600500!5m2!1svi!2s" width="400" height="400" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    <br><p><i> 61 Bach Dang street, Tan Binh district, Ha Noi, Vietnam</i></p>
+                </div>
+                <div class="col-sm loHover">
+                    <h3 class="text-center">Da Nang</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15337.18593196941!2d108.22508528527231!3d16.05009739362332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3142175d88fc596b%3A0xa7ef89664df213e9!2sClub%2099!5e0!3m2!1svi!2s!4v1594560670492!5m2!1svi!2s" width="400" height="400" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    <br><p><i>27Q2+X9 Khue My street, Ngu Hanh Son district, Da Nang, Việt Nam</i></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us ------------------------------------------------------------------------------>
+        <section id="About_Us" class="container">
+            <h1>About Us</h1>
+            <p>Smart Store was esatblished in 1994, and has become a very famous company selling smart and space-saving furnitures till this day.</p>
+            <fieldset class="px-3">
+                <legend>Founders</legend>
+                <div class="parentFlex">
+                    <div class="flex-child">
+                        <h5 class="bg-primary">CEO</h5>
+                        <img src="img\leadership 1.jpg">
+                        <div class="doFade">
+                            <h5>NGUYEN HOANG PHU</h5>
+                            <a href="mailto:phugidokonho@gmail.com">
+                                <button class="btn btn-primary"><i class="fa fa-paper-plane" aria-hidden="true"></i> Send Mails</button>
+                            </a>
+                            <p><i>phugidokonho@gmail.com</i></p>
+                        </div>
+                    </div>
+                    <div class="flex-child">
+                        <h5 class="bg-success">Vice President</h5>
+                        <span class="shadowLight">
+                            <img src="img\leadership 2.jpg">
+                        </span>
+                        <div class="doFade">
+                            <h5>TRUONG HO TIEN</h5>
+                            <a href="mailto:truonghotien93@gmail.com">
+                                <button class="btn btn-success"><i class="fa fa-paper-plane" aria-hidden="true"></i> Send Mails</button>
+                            </a>
+                            <p><i>truonghotien93@gmail.com</i></p>
+                        </div>
+                    </div>
+                    <div class="flex-child">
+                        <h5 class="bg-warning">Marketing Executive</h5>
+                        <img src="img\leadership 3.jpg">
+                        <div class="doFade">
+                            <h5>NGUYEN KHANH KHOI NGUYEN</h5>
+                            <a href="mailto:khoinguyen1951994@gmail.com">
+                                <button class="btn btn-warning"><i class="fa fa-paper-plane" aria-hidden="true"></i> Send Mails</button>
+                            </a>
+                            <p><i>khoinguyen1951994@gmail.com</i></p>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+        </section>
+        
+        <!--Feedbacks ------------------------------------------------------------------------------->
+        <section id="Feedbacks" class="container">
+            <h3>Your feedbacks are necessary for our improvements.</h3>
+            <form class="need-validated" onsubmit="sendFeedback()">
+                <div class="form-group row">
+                    <div class="col-xl-3">
+                        <label for="name">Your Name:</label>
+                    </div>
+                    <div class="col-xl-9">
+                        <input type="text" class="form-control" data-add="validate" id="name" name="name" placeholder="Enter your name">
+                        <div class="valid-feedback"><i class="fa fa-check" aria-hidden="true"></i></div>
+                        <div class="invalid-feedback">Please fill out this field.</div>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-xl-3">
+                        <label for="email">Your Email</label>
+                    </div>
+                    <div class="col-xl-9">
+                        <input type="text" class="form-control" data-add="validate" id="email" name="email" placeholder="Enter your phone number">
+                        <div class="valid-feedback"><i class="fa fa-check" aria-hidden="true"></i></div>
+                        <div class="invalid-feedback">Please fill out this field.</div>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-xl-3">
+                        <label for="phone">Your Phone</label>
+                    </div>
+                    <div class="col-xl-9">
+                        <input type="text" class="form-control" data-add="validate" id="phone" name="phone" placeholder="Enter your name">
+                        <div class="valid-feedback"><i class="fa fa-check" aria-hidden="true"></i></div>
+                        <div class="invalid-feedback">Please fill out this field.</div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <p class="mb-0"><label>What thing make you feel unsatisfied:</label></p>
+                    <div class="form-check-inline">
+                        <label class="form-check-label">
+                            <input type="checkbox" class="form-check-input" value="staffs">Staffs
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label">
+                            <input type="checkbox" class="form-check-input" value="prices">Prices
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label">
+                            <input type="checkbox" class="form-check-input" value="locations">Locations
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label">
+                            <input type="checkbox" class="form-check-input" value="services">Services
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="description">Description</label>
+                    <textarea class="form-control" id="description" rows="3" placeholder="Enter your description"></textarea>
+                </div>
+                <div class="form-group" id="cc">
+                    <button type="submit" class="btn btn-success">Send</button>
+                </div>
+            </form>
+        </section>
+        <div class="modalChe">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Smart Store</h4>
+                    </div>
+                    <div class="modal-body text-center">
+                    Thank you for your feedback...
+                    </div>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Us -------------------------------------------------------------------------->
+        <section id="Contact" class="container">
+            <h1>Please contact us for more information</h1>
+            <div class="row">
+                <div class="col-md-6">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.3257176556144!2d106.66413881443752!3d10.78634619231478!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ed23ca5d8db%3A0x24d414f45e5a523!2zNTkwIEPDoWNoIE3huqFuZyBUaMOhbmcgOCwgUGjGsOG7nW5nIDExLCBRdeG6rW4gMywgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1544844710135" width="100%" height="100%"></iframe>
+                </div>
+                <div class="col-md-6">
+                    <div class="grid-item">
+                        <h4>Headquarters Address</h4>
+                        <p>590 Cach Mang Thang 8 street, district 3, Ho Chi Minh City</p>
+                    </div>
+                    <div class="grid-item">
+                        <h4>Phone Numbers:</h4>
+                        <a href="tel:0937441896">093.744.1896</a>
+                    </div>
+                    <div class="grid-item">
+                        <h4>Email: </h4>
+                        <a href="mailto:phugidokonho4@gmail.com">phugidokonho@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="Footer">
+            <div class="left">
+                <div class="logo">
+                    <img src="./img/logo.png">
+                    <p>Smart Store</p>
+                </div>
+            </div>
+            <div class="right">
+                <div class="icon">
+                    <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                </div>
+                <div class="license">
+                    <div class="footNav">
+                        <a href="#">Juridical</a>
+                        <a href="#">Private Policy</a>
+                        <a href="#">Advertising options</a>
+                        <a href="#">Cookie</a>
+                    </div>
+                    <p>Copyright © 2009-2020 Natural Intelligence Ltd. All Rights Reserved.</p>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
